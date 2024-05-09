@@ -1,4 +1,17 @@
 #container {
+	max-width: 60em;
+	max-height: 60em;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
 	border: 2px solid;
+	padding: 1px;
+	aspect-ratio: 1/1;
+}
+
+.grid {
+	flex: 1 0 3.4%;
+	border: 2px solid;
+	background-color: #0000ff;
 	padding: 10px;
 }
