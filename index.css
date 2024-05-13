@@ -1,17 +1,19 @@
 #container {
-	max-width: 60em;
-	max-height: 60em;
+	width: 600px;
+	height: 600px;
 	margin: auto;
 	display: flex;
-	flex-wrap: wrap;
-	border: 2px solid;
-	padding: 1px;
+	flex-direction: row;
 	aspect-ratio: 1/1;
+	border: 1px solid;
 }
 
-.grid {
-	flex: 1 0 3.4%;
-	border: 2px solid;
-	background-color: #0000ff;
-	padding: 10px;
+.square {
+	flex: 1;
+	border: 1px solid;
+}
+.col {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
 }
